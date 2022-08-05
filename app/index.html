@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #282a3a;
+        font-family: sans-serif;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 10% auto;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        height: 100vh;
+
+      }
+      h1 {
+        color: aliceblue;
+        margin: 30px;
+        grid-column-start: span 3;
+      }
+      div {
+        margin: 30px;
+        display: inline-block;
+      }
+     a {
+      grid-column-start: span 3;
+      background-color: #ff657a;
+      color: white;
+      font-size: 24px;
+      padding: 12px 24px;
+      text-decoration: none;
+      margin: 8px
+     }
+    </style>
+  </head>
+  <body>
+    <h1>Download this PDF 👇</h1>
+    <a href="./simple.pdf" download>simple.pdf</a>
+    <a href="./complex.pdf" download>complex.pdf</a>
+
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "testing-pdf-with-cypress",
+  "version": "1.0.0",
+  "scripts": {
+    "cy:open": "./node_modules/.bin/cypress open",
+    "cy:run": "./node_modules/.bin/cypress run",
+    "start": "serve app"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Filip Hric (https://filiphric.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.6.4",
+    "cypress": "^10.4.0",
+    "pdf-parse": "^1.1.1",
+    "pdfreader": "^2.0.0",
+    "serve": "^14.0.1",
+    "typescript": "^4.7.4"
+  }
+}
